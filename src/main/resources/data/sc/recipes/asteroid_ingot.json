@@ -1,0 +1,12 @@
+{
+  "group": "sc",
+  "type": "minecraft:smelting",
+  "experience": 2,
+  "cookingtime": 150,
+  "ingredient": {
+    "item": "sc:charged_stardust"
+  },
+  "result": {
+    "item": "sc:asteroid_ingot"
+  }
+}

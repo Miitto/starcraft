@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "sc:acid",
+    "sc:acid_flowing",
+    "sc:putty",
+    "sc:putty_flowing"
+  ]
+}

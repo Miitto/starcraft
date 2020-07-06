@@ -1,0 +1,22 @@
+{
+  "_fv": 8,
+  "_type": "potion",
+  "definition": {
+    "name": "Asteroid Igniter Reveltaion",
+    "effectName": "Asteroid Igniter Revelation",
+    "icon": "randomtexturefortesting.png",
+    "color": {
+      "value": -65302,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": false,
+    "isBenefitical": true,
+    "registerPotionType": false,
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false,
+    "onExpired": {
+      "name": "PortalIgniterRevelationPotionStartedapplied"
+    }
+  }
+}

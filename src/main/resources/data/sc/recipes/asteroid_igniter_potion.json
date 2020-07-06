@@ -1,0 +1,42 @@
+{
+  "group": "sc",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sc:weird_diamond"
+    },
+    "1": {
+      "item": "sc:energised_dust"
+    },
+    "2": {
+      "item": "sc:weird_diamond"
+    },
+    "3": {
+      "item": "sc:weird_diamond"
+    },
+    "4": {
+      "item": "sc:energised_dust"
+    },
+    "5": {
+      "item": "sc:weird_diamond"
+    },
+    "6": {
+      "item": "minecraft:diamond_block"
+    },
+    "7": {
+      "item": "minecraft:potion"
+    },
+    "8": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "sc:asteroid_revelation",
+    "count": 1
+  }
+}

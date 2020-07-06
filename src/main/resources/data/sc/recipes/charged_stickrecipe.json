@@ -1,0 +1,42 @@
+{
+  "group": "sc",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sc:stardust"
+    },
+    "1": {
+      "item": "sc:stardust"
+    },
+    "2": {
+      "item": "sc:stardust"
+    },
+    "3": {
+      "item": "sc:stardust"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "sc:stardust"
+    },
+    "6": {
+      "item": "sc:stardust"
+    },
+    "7": {
+      "item": "sc:stardust"
+    },
+    "8": {
+      "item": "sc:stardust"
+    }
+  },
+  "result": {
+    "item": "sc:charged_stick",
+    "count": 1
+  }
+}

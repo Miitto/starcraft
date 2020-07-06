@@ -1,0 +1,34 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "asteroid_axe",
+    "customModelName": "Normal",
+    "name": "Asteroid Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:StarcraftTools"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 8,
+    "efficiency": 17.0,
+    "attackSpeed": 1.0,
+    "enchantability": 56,
+    "damageVsEntity": 24.0,
+    "usageCount": 2000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:AsteroidIngot"
+      }
+    ],
+    "onCrafted": {
+      "name": "StardustItemIsCraftedsmelted"
+    },
+    "onEntityHitWith": {
+      "name": "StardustLivingEntityIsHitWithItem"
+    }
+  }
+}

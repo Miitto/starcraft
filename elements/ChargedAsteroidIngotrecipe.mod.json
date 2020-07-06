@@ -1,0 +1,46 @@
+{
+  "_fv": 8,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AsteroidIngot"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "CUSTOM:AsteroidIngot"
+      },
+      {
+        "value": "CUSTOM:AsteroidIngot"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "CUSTOM:AsteroidIngot"
+      },
+      {
+        "value": "CUSTOM:AsteroidIngot"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "CUSTOM:AsteroidIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChargedAsteroidIngot"
+    },
+    "name": "charged_asteroid_ingotrecipe",
+    "namespace": "mod"
+  }
+}

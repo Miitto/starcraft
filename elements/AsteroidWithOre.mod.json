@@ -1,0 +1,20 @@
+{
+  "_fv": 8,
+  "_type": "structure",
+  "definition": {
+    "structure": "metior",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First block",
+    "spawnProbability": 1000000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 5,
+    "spawnLocation": "Air",
+    "spawnHeightOffset": 5,
+    "spawnWorldTypes": [
+      "CUSTOM:AsteroidWorld"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

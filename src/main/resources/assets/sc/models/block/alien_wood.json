@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sc:blocks/alien_wood_top",
+    "up": "sc:blocks/alien_wood_top",
+    "north": "sc:blocks/alien_wood_side",
+    "east": "sc:blocks/alien_wood_side",
+    "south": "sc:blocks/alien_wood_side",
+    "west": "sc:blocks/alien_wood_side",
+    "particle": "sc:blocks/alien_wood_top"
+  }
+}

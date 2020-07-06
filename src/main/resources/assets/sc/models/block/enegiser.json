@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sc:blocks/enegiser_top",
+    "up": "sc:blocks/enegiser_top",
+    "north": "sc:blocks/enegiser_side",
+    "east": "sc:blocks/enegiser_side",
+    "south": "sc:blocks/enegiser_side",
+    "west": "sc:blocks/enegiser_side",
+    "particle": "sc:blocks/enegiser_top"
+  }
+}

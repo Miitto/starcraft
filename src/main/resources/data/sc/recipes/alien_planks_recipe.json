@@ -1,0 +1,13 @@
+{
+  "group": "sc",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sc:alien_wood"
+    }
+  ],
+  "result": {
+    "item": "sc:alien_planks",
+    "count": 4
+  }
+}

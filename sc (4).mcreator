@@ -1,0 +1,847 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "StardustItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stardust_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StardustLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stardust_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stardust",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stardust"
+    },
+    {
+      "name": "AsteroidIngot",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asteroid_ingot"
+    },
+    {
+      "name": "StarDustIngot",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "star_dust_ingot"
+    },
+    {
+      "name": "ChargedStardust",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charged_stardust"
+    },
+    {
+      "name": "AsteroidPickaxe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asteroid_pickaxe"
+    },
+    {
+      "name": "AsteroidAxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asteroid_axe"
+    },
+    {
+      "name": "AsteroidSword",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asteroid_sword"
+    },
+    {
+      "name": "AsteroidShovel",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asteroid_shovel"
+    },
+    {
+      "name": "AsteroidHoe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asteroid_hoe"
+    },
+    {
+      "name": "AsteroidPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asteroid_pickaxe_recipe"
+    },
+    {
+      "name": "AsteroidAxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asteroid_axe_recipe"
+    },
+    {
+      "name": "AsteroidSwordRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asteroid_sword_recipe"
+    },
+    {
+      "name": "AsteroidShovelRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asteroid_shovel_recipe"
+    },
+    {
+      "name": "AsteroidHoeRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asteroid_hoe_recipe"
+    },
+    {
+      "name": "ChargedStick",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charged_stick"
+    },
+    {
+      "name": "ChargedStickrecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charged_stickrecipe"
+    },
+    {
+      "name": "ChargedAsteroidIngot",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charged_asteroid_ingot"
+    },
+    {
+      "name": "ChargedAsteroidIngotrecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charged_asteroid_ingotrecipe"
+    },
+    {
+      "name": "ChargedPickaxe",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charged_pickaxe"
+    },
+    {
+      "name": "ChargedAxe",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charged_axe"
+    },
+    {
+      "name": "ChargedSword",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charged_sword"
+    },
+    {
+      "name": "ChargedShovel",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charged_shovel"
+    },
+    {
+      "name": "ChargedPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charged_pickaxe_recipe"
+    },
+    {
+      "name": "ChargedAxeRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charged_axe_recipe"
+    },
+    {
+      "name": "ChargedSwordRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charged_sword_recipe"
+    },
+    {
+      "name": "ChargedShovelRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charged_shovel_recipe"
+    },
+    {
+      "name": "Comet",
+      "type": "biome",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "comet"
+    },
+    {
+      "name": "Asteroid",
+      "type": "dimension",
+      "sortid": 29,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asteroid"
+    },
+    {
+      "name": "AsteroidMinteralCluster",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asteroid_minteral_cluster"
+    },
+    {
+      "name": "AsteroidWithOre",
+      "type": "structure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asteroid_with_ore"
+    },
+    {
+      "name": "StarcraftTools",
+      "type": "tab",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "starcraft_tools"
+    },
+    {
+      "name": "StarcraftMaterials",
+      "type": "tab",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "starcraft_materials"
+    },
+    {
+      "name": "PortalIgniterRevelationPotionStartedapplied",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "portal_igniter_revelation_potion_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StarcraftBlocks",
+      "type": "tab",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "starcraft_blocks"
+    },
+    {
+      "name": "AlienGrass",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alien_grass"
+    },
+    {
+      "name": "WeirdDirt",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weird_dirt"
+    },
+    {
+      "name": "AlienGrasslands",
+      "type": "biome",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alien_grasslands"
+    },
+    {
+      "name": "AlienWood",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alien_wood"
+    },
+    {
+      "name": "AlienWoodland",
+      "type": "biome",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alien_woodland"
+    },
+    {
+      "name": "AlienPlanks",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alien_planks"
+    },
+    {
+      "name": "AlienPlanksRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alien_planks_recipe"
+    },
+    {
+      "name": "WeirdStick",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weird_stick"
+    },
+    {
+      "name": "WeirdStickrecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weird_stickrecipe"
+    },
+    {
+      "name": "WeirdStickLogrecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weird_stick_logrecipe"
+    },
+    {
+      "name": "AsteroidIgniterEffect",
+      "type": "potion",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asteroid_igniter_effect"
+    },
+    {
+      "name": "AsteroidIgniterRevelation",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asteroid_igniter_revelation",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AsteroidRevelation",
+      "type": "food",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asteroid_revelation"
+    },
+    {
+      "name": "RemoveIgniter",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "remove_igniter",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlienDiamonds",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alien_diamonds"
+    },
+    {
+      "name": "EnegiserGUI",
+      "type": "gui",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enegiser_gui"
+    },
+    {
+      "name": "Enegiser",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enegiser"
+    },
+    {
+      "name": "OpenEnegiserGUI",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_enegiser_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetPlayerOnFire",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "set_player_on_fire",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnergisedDust",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "energised_dust"
+    },
+    {
+      "name": "EnegiserUpdateTick",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enegiser_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WeirdDiamond",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weird_diamond"
+    },
+    {
+      "name": "AlienRevelationDrunk",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alien_revelation_drunk",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlienRevelation",
+      "type": "food",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alien_revelation"
+    },
+    {
+      "name": "AlienIgniterPotion",
+      "type": "potion",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alien_igniter_potion"
+    },
+    {
+      "name": "AlienIgniterGive",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alien_igniter_give",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlienIgniterPotionRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alien_igniter_potion_recipe"
+    },
+    {
+      "name": "AsteroidIgniterPotion",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asteroid_igniter_potion"
+    },
+    {
+      "name": "RemoveAlienIgniter",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "remove_alien_igniter",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlienDiamondsDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alien_diamonds_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Acid",
+      "type": "fluid",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acid"
+    },
+    {
+      "name": "Putty",
+      "type": "fluid",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "putty"
+    },
+    {
+      "name": "AlienWorld",
+      "type": "dimension",
+      "sortid": 64,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alien_world"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.tipped_arrow.effect.asteroid_igniter_effect": "Arrow of Asteroid Igniter Reveltaion",
+      "item.test1.asteroid_hoe": "Asteroid Hoe",
+      "item.sc.charged_stardust": "Charged Stardust",
+      "item.sc.asteroid_shovel": "Asteroid Shovel",
+      "block.sc.alien_diamonds": "Alien Diamonds",
+      "item.minecraft.potion.effect.alien_igniter_potion": "Alien Igniter Potion",
+      "block.sc.asteroid_minteral_cluster": "Asteroid Minteral Cluster",
+      "item.sc.charged_pickaxe": "Charged Asteroid Pickaxe",
+      "item.test1.charged_asteroid_ingot": "Charged Asteroid Ingot",
+      "item.minecraft.splash_potion.effect.alien_igniter_potion": "Splash Alien Igniter Potion",
+      "item.test1.stardust": "Stardust",
+      "item.sc.asteroid_pickaxe": "Asteroid Pickaxe",
+      "item.sc.asteroid_revelation": "Asteroid Igniter Revelation",
+      "block.test1.asteroid_minteral_cluster": "Asteroid Minteral Cluster",
+      "itemGroup.tabstarcraft_blocks": "Starcraft Blocks",
+      "item.sc.charged_asteroid_ingot": "Charged Asteroid Ingot",
+      "item.test1.asteroid_shovel": "Asteroid Shovel",
+      "item.sc.weird_diamond": "Weird Diamond",
+      "effect.alien_igniter_potion": "Alien Igniter Potion",
+      "item.test1.charged_axe": "Charged Asteroid Axe",
+      "item.sc.alien_world": "Alien World Portal Igniter",
+      "item.minecraft.lingering_potion.effect.alien_igniter_potion": "Lingering Alien Igniter Potion",
+      "effect.asteroid_igniter_effect": "Asteroid Igniter Revelation",
+      "fluid.acid": "Acid",
+      "item.minecraft.tipped_arrow.effect.alien_igniter_potion": "Arrow of Alien Igniter Potion",
+      "item.minecraft.lingering_potion.effect.asteroid_igniter_effect": "Lingering Asteroid Igniter Reveltaion",
+      "itemGroup.tabstarcraft_tools": "Starcraft Tools",
+      "fluid.putty": "Putty",
+      "item.minecraft.splash_potion.effect.asteroid_igniter_effect": "Splash Asteroid Igniter Reveltaion",
+      "item.test1.asteroid_sword": "Asteroid Sword",
+      "item.sc.weird_stick": "Weird Stick",
+      "item.test1.charged_sword": "Charged Asteroid Sword",
+      "item.minecraft.potion.effect.asteroid_igniter_effect": "Asteroid Igniter Reveltaion",
+      "item.sc.alien_revelation": "Alien Igniter Revelation",
+      "block.sc.alien_planks": "Alien Planks",
+      "item.sc.asteroid_ingot": "Asteroid Ingot",
+      "item.test1.charged_pickaxe": "Charged Asteroid Pickaxe",
+      "item.test1.charged_stardust": "Charged Stardust",
+      "block.sc.enegiser": "Enegiser",
+      "item.sc.charged_stick": "Charged Stick",
+      "item.test1.charged_shovel": "Charged Asteroid Shovel",
+      "item.test1.asteroid_axe": "Asteroid Axe",
+      "item.test1.charged_stick": "Charged Stick",
+      "item.sc.asteroid_axe": "Asteroid Axe",
+      "item.sc.charged_sword": "Charged Asteroid Sword",
+      "item.test1.asteroid_pickaxe": "Asteroid Pickaxe",
+      "item.test1.asteroid": "Asteroid Portal Igniter",
+      "item.sc.stardust": "Stardust",
+      "item.sc.asteroid": "Asteroid Portal Igniter",
+      "item.test1.asteroid_ingot": "Asteroid Ingot",
+      "item.sc.asteroid_sword": "Asteroid Sword",
+      "item.sc.asteroid_hoe": "Asteroid Hoe",
+      "itemGroup.tabstarcraft_materials": "Starcraft Materials",
+      "block.sc.weird_dirt": "Weird Dirt",
+      "item.sc.acid_bucket": "Acid Bucket",
+      "block.sc.alien_wood": "Alien Wood",
+      "item.sc.putty_bucket": "Putty Bucket",
+      "item.sc.energised_dust": "Energised Dust",
+      "item.sc.charged_shovel": "Charged Asteroid Shovel",
+      "item.sc.charged_axe": "Charged Asteroid Axe",
+      "block.sc.alien_grass": "Alien Grass"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "sc",
+    "modName": "Starcraft",
+    "version": "1.0.0",
+    "author": "Admin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mod.starcraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000322116
+}

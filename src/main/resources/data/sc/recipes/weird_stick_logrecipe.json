@@ -1,0 +1,20 @@
+{
+  "group": "sc",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "sc:alien_wood"
+    },
+    "1": {
+      "item": "sc:alien_wood"
+    }
+  },
+  "result": {
+    "item": "sc:weird_stick",
+    "count": 16
+  }
+}

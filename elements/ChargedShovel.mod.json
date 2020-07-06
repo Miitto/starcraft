@@ -1,0 +1,37 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "charged_shovel",
+    "customModelName": "Normal",
+    "name": "Charged Asteroid Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:StarcraftTools"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 20,
+    "efficiency": 50.0,
+    "attackSpeed": 1.0,
+    "enchantability": 140,
+    "damageVsEntity": 20.0,
+    "usageCount": 7500,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "CUSTOM:ChargedAsteroidIngot"
+      }
+    ],
+    "onCrafted": {
+      "name": "StardustItemIsCraftedsmelted"
+    },
+    "onEntityHitWith": {
+      "name": "StardustLivingEntityIsHitWithItem"
+    }
+  }
+}

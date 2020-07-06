@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sc:blocks/alien_diamond_ore",
+    "up": "sc:blocks/alien_diamond_ore",
+    "north": "sc:blocks/alien_diamond_ore",
+    "east": "sc:blocks/alien_diamond_ore",
+    "south": "sc:blocks/alien_diamond_ore",
+    "west": "sc:blocks/alien_diamond_ore",
+    "particle": "sc:blocks/alien_diamond_ore"
+  }
+}

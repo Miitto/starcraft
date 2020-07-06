@@ -1,0 +1,37 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "charged_axe",
+    "customModelName": "Normal",
+    "name": "Charged Asteroid Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:StarcraftTools"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 20,
+    "efficiency": 50.0,
+    "attackSpeed": 1.0,
+    "enchantability": 140,
+    "damageVsEntity": 60.0,
+    "usageCount": 7500,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ChargedAsteroidIngot"
+      },
+      {
+        "value": "Items.DIAMOND"
+      }
+    ],
+    "onCrafted": {
+      "name": "StardustItemIsCraftedsmelted"
+    },
+    "onEntityHitWith": {
+      "name": "StardustLivingEntityIsHitWithItem"
+    }
+  }
+}

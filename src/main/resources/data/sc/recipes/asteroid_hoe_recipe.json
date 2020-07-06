@@ -1,0 +1,27 @@
+{
+  "group": "sc",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "sc:asteroid_ingot"
+    },
+    "1": {
+      "item": "sc:asteroid_ingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "sc:asteroid_hoe",
+    "count": 1
+  }
+}

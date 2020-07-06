@@ -1,0 +1,46 @@
+{
+  "_fv": 8,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:WeirdDiamond"
+      },
+      {
+        "value": "CUSTOM:EnergisedDust"
+      },
+      {
+        "value": "CUSTOM:WeirdDiamond"
+      },
+      {
+        "value": "CUSTOM:WeirdDiamond"
+      },
+      {
+        "value": "CUSTOM:EnergisedDust"
+      },
+      {
+        "value": "CUSTOM:WeirdDiamond"
+      },
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      },
+      {
+        "value": "Items.POTIONITEM"
+      },
+      {
+        "value": "Blocks.DIAMOND_BLOCK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AsteroidRevelation"
+    },
+    "name": "asteroid_igniter_potion",
+    "namespace": "mod"
+  }
+}

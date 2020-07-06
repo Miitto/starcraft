@@ -1,0 +1,24 @@
+{
+  "group": "sc",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "sc:charged_asteroid_ingot"
+    },
+    "1": {
+      "item": "sc:charged_asteroid_ingot"
+    },
+    "2": {
+      "item": "sc:charged_stick"
+    }
+  },
+  "result": {
+    "item": "sc:charged_sword",
+    "count": 1
+  }
+}

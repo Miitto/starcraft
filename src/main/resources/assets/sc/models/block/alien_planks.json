@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sc:blocks/weird_planks",
+    "up": "sc:blocks/weird_planks",
+    "north": "sc:blocks/weird_planks",
+    "east": "sc:blocks/weird_planks",
+    "south": "sc:blocks/weird_planks",
+    "west": "sc:blocks/weird_planks",
+    "particle": "sc:blocks/weird_planks"
+  }
+}

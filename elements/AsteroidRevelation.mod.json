@@ -1,0 +1,27 @@
+{
+  "_fv": 8,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "portaligniterrevelation",
+    "customModelName": "Normal",
+    "name": "Asteroid Igniter Revelation",
+    "specialInfo": [
+      "Energised Dust Refined by Alien materials and encased in solid diamond"
+    ],
+    "creativeTab": {
+      "value": "BREWING"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "AsteroidIgniterRevelation"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "asteroid_pickaxe",
+    "customModelName": "Normal",
+    "name": "Asteroid Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:StarcraftTools"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 8,
+    "efficiency": 17.0,
+    "attackSpeed": 2.0,
+    "enchantability": 56,
+    "damageVsEntity": 8.0,
+    "usageCount": 2000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:AsteroidIngot"
+      }
+    ],
+    "onCrafted": {
+      "name": "StardustItemIsCraftedsmelted"
+    },
+    "onEntityHitWith": {
+      "name": "StardustLivingEntityIsHitWithItem"
+    }
+  }
+}
