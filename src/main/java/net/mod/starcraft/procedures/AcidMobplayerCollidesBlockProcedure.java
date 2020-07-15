@@ -17,6 +17,9 @@ public class AcidMobplayerCollidesBlockProcedure extends ScModElements.ModElemen
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
+		double count = 0;
 		entity.attackEntityFrom(DamageSource.GENERIC, (float) 1);
+		entity.attackEntityFrom(DamageSource.GENERIC, (float) 2);
+		entity.attackEntityFrom(DamageSource.GENERIC, (float) 4);
 	}
 }

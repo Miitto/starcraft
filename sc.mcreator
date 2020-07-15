@@ -774,6 +774,66 @@
           }
         ]
       }
+    },
+    {
+      "name": "MetiorHead",
+      "type": "mob",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metior_head"
+    },
+    {
+      "name": "ChargedArmor",
+      "type": "armor",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charged_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "ChargedArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charged_armor_helmet_recipe"
+    },
+    {
+      "name": "ChargedArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charged_armor_body_recipe"
+    },
+    {
+      "name": "ChargedArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charged_armor_leggings_recipe"
+    },
+    {
+      "name": "ChargedArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charged_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
@@ -786,13 +846,15 @@
       "item.sc.asteroid_shovel": "Asteroid Shovel",
       "block.sc.alien_diamonds": "Alien Diamonds",
       "item.minecraft.potion.effect.alien_igniter_potion": "Alien Igniter Potion",
-      "block.sc.asteroid_minteral_cluster": "Asteroid Minteral Cluster",
+      "item.sc.charged_armorhelmet": "Charged Helmet",
       "item.sc.charged_pickaxe": "Charged Asteroid Pickaxe",
+      "block.sc.asteroid_minteral_cluster": "Asteroid Minteral Cluster",
       "item.test1.charged_asteroid_ingot": "Charged Asteroid Ingot",
       "item.minecraft.splash_potion.effect.alien_igniter_potion": "Splash Alien Igniter Potion",
       "item.test1.stardust": "Stardust",
       "item.sc.asteroid_pickaxe": "Asteroid Pickaxe",
       "item.sc.asteroid_revelation": "Asteroid Igniter Revelation",
+      "entity.sc.metior_head": "Metior Head",
       "block.test1.asteroid_minteral_cluster": "Asteroid Minteral Cluster",
       "itemGroup.tabstarcraft_blocks": "Starcraft Blocks",
       "item.sc.charged_asteroid_ingot": "Charged Asteroid Ingot",
@@ -813,6 +875,7 @@
       "item.sc.asteroid_world": "Asteroid World Portal Igniter",
       "item.sc.weird_stick": "Weird Stick",
       "item.test1.charged_sword": "Charged Asteroid Sword",
+      "item.sc.charged_armorbody": "Charged Chestplate",
       "item.minecraft.potion.effect.asteroid_igniter_effect": "Asteroid Igniter Reveltaion",
       "item.sc.alien_revelation": "Alien Igniter Revelation",
       "block.sc.alien_planks": "Alien Planks",
@@ -829,16 +892,19 @@
       "item.test1.asteroid_pickaxe": "Asteroid Pickaxe",
       "item.test1.asteroid": "Asteroid Portal Igniter",
       "item.sc.stardust": "Stardust",
+      "item.sc.charged_armorlegs": "Charged Leggings",
       "item.test1.asteroid_ingot": "Asteroid Ingot",
       "item.sc.asteroid_sword": "Asteroid Sword",
       "item.sc.asteroid_hoe": "Asteroid Hoe",
       "itemGroup.tabstarcraft_materials": "Starcraft Materials",
       "block.sc.weird_dirt": "Weird Dirt",
       "item.sc.acid_bucket": "Acid Bucket",
+      "item.sc.metior_head": "Metior Head Spawn Egg",
       "block.sc.alien_wood": "Alien Wood",
       "item.sc.putty_bucket": "Putty Bucket",
       "item.sc.energised_dust": "Energised Dust",
       "item.sc.charged_shovel": "Charged Asteroid Shovel",
+      "item.sc.charged_armorboots": "Charged Boots",
       "item.sc.charged_axe": "Charged Asteroid Axe",
       "block.sc.alien_grass": "Alien Grass"
     }

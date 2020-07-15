@@ -646,7 +646,7 @@ public class AsteroidWorldDimension extends ScModElements.ModElement {
 	public static class CustomDimension extends Dimension {
 		private BiomeProviderCustom biomeProviderCustom = null;
 		public CustomDimension(World world, DimensionType type) {
-			super(world, type, 0.5f);
+			super(world, type, 0);
 			this.nether = false;
 		}
 

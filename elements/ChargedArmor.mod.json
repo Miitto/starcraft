@@ -1,0 +1,54 @@
+{
+  "_fv": 8,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "charged_head",
+    "enableBody": true,
+    "textureBody": "charged_body",
+    "enableLeggings": true,
+    "textureLeggings": "charged_leggings",
+    "enableBoots": true,
+    "textureBoots": "charged_boots",
+    "creativeTab": {
+      "value": "CUSTOM:StarcraftTools"
+    },
+    "armorTextureFile": "charged",
+    "helmetName": "Charged Helmet",
+    "bodyName": "Charged Chestplate",
+    "leggingsName": "Charged Leggings",
+    "bootsName": "Charged Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 20,
+    "damageValueHelmet": 5,
+    "damageValueBody": 10,
+    "damageValueLeggings": 12,
+    "damageValueBoots": 5,
+    "enchantability": 20,
+    "toughness": 3.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:ChargedAsteroidIngot"
+      },
+      {
+        "value": "CUSTOM:EnergisedDust"
+      }
+    ]
+  }
+}
